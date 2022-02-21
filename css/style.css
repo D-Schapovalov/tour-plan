@@ -110,11 +110,7 @@ h6 {
   background-color: #fff;
 }
 
-<<<<<<< HEAD
 .navbar__top {
-=======
-.navbar-top {
->>>>>>> 113fa90eb945925dc2b28e1a8e2025d6695a3b5f
   padding: 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,13 +190,10 @@ h6 {
   color: #333;
 }
 
-<<<<<<< HEAD
 .burger {
   display: none;
 }
 
-=======
->>>>>>> 113fa90eb945925dc2b28e1a8e2025d6695a3b5f
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
