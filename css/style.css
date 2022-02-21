@@ -14,6 +14,10 @@ body {
   margin: auto;
 }
 
+.container img {
+  max-width: 100%;
+}
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -186,6 +190,10 @@ h6 {
   color: #333;
 }
 
+.burger {
+  display: none;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,20 +227,55 @@ h6 {
   }
   .navbar__search {
     margin-left: auto;
-    max-width: 340px;
   }
   .navbar__menu {
     padding: 22px 0;
+  }
+  .logo {
+    width: 132px;
   }
   .menu__link {
     font-size: 12px;
     line-height: 15px;
   }
+  .search__input {
+    width: 340px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
-    max-width: 700px;
+    max-width: 576px;
+    width: 92%;
+  }
+  .navbar__menu, .navbar__search, .navbar__user {
+    display: none;
+  }
+  .burger {
+    width: 20px;
+    height: 15px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .burger__item {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 99px;
   }
 }
 /*# sourceMappingURL=style.css.map */
