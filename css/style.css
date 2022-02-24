@@ -376,6 +376,34 @@ h6 {
     height: 2px;
     background-color: #000;
   }
+  .hotel-raiting {
+    display: none;
+  }
+  .hotel-text {
+    width: 100%;
+  }
+  .hotel-text__wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hotel-text__stars {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .hotel-text__head {
+    width: 100%;
+  }
+  .hotel-text__offer {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-left: 0;
+    margin-bottom: 4px;
+  }
 }
 
 @media (max-width: 576px) {
